@@ -1,0 +1,10 @@
+module.exports = {
+    FB_PAGE_TOKEN: 'EAABxANCsUsgBAJz5quuZCmlPmZCYQBBiZA7UjAQWUvYrdbPIyllV5KJnuqDiAZAzLoGgg2ISRjLivpOWoovT1oD7ftZB9EKTGv8y7hobChi5AaCf5QnSN6zo71vh0yj4i2zdiKylsS0NFJvKuOYMnpqzpiYQAo8KNliPNCbfJuQZDZD',
+    FB_VERIFY_TOKEN: '',
+    FB_APP_SECRET: '',
+    SERVER_URL: '',
+    GOOGLE_PROJECT_ID: '',
+    DF_LANGUAGE_CODE: '',
+    GOOGLE_CLIENT_EMAIL: '',
+    GOOGLE_PRIVATE_KEY: ''
+};
