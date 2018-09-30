@@ -37,8 +37,9 @@ if (!config.SERVER_URL) { //used for ink to static files
 }
 
 
+const port = process.env.PORT || 8000;
 
-app.set('port', (process.env.PORT || 3000))
+app.set('port', (process.env.PORT || 8000))
 
 //verify request came from facebook
 app.use(bodyParser.json({
@@ -891,6 +892,6 @@ function isDefined(obj) {
 }
 
 // Spin up the server
-app.listen(app.get('port'), function () {
+app.listen(app.get('port'), () => {
 	console.log('running on port', app.get('port'))
 })
